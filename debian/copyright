@@ -1,0 +1,20 @@
+This package was debianized by Richard Drummond <uae@rcdrummond.net> and
+adjusted for Debian by Florian Ernst <florian@debian.org>.
+
+The sources were obtained from <http://www.rcdrummond.net/uae/>, CVS access
+is available at SourceForge <http://sourceforge.net/projects/uaedev/>.
+
+Copyright Holders:
+
+  Copyright 2003-2005 Richard Drummond (e-uae)
+
+  E-UAE is based on the work of dozens of contributors including Bernd Schmidt
+  (the original author and maintainer of UAE), Bernie Meyer (the author of the
+  x86 JIT compiler), Toni Wilen (the current maintainer of WinUAE), and many
+  more.
+
+e-uae license:
+
+  E-UAE is open-source software and is made available under the terms of the
+  GPL.  On Debian systems, the complete text of the GNU General Public License
+  can be found in `/usr/share/common-licenses/GPL'.
