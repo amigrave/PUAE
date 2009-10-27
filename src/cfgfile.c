@@ -569,7 +569,7 @@ void save_options (FILE *f, const struct uae_prefs *p, int type)
 	cfgfile_write (f, "finegrain_cpu_speed=%d\n", p->m68k_speed);
     else
 	cfgfile_write (f, "cpu_speed=%s\n", p->m68k_speed == -1 ? "max" : "real");
-    cfgfile_write (f, "cpu_model", "%d", p->cpu_model);
+    cfgfile_write (f, "cpu_model=%d\n", p->cpu_model);
     cfgfile_write (f, "cpu_compatible=%s\n", p->cpu_compatible ? "true" : "false");
     cfgfile_write (f, "cpu_cycle_exact=%s\n", p->cpu_cycle_exact ? "true" : "false");
     cfgfile_write (f, "blitter_cycle_exact=%s\n", p->blitter_cycle_exact ? "true" : "false");
